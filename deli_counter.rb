@@ -10,6 +10,12 @@ def line(names)
     end
 end
 
+line = 0
+
+def take_a_number(line)
+  line += 1
+  puts line
+end
 
 
 def take_a_number(katz_deli, new_name)
